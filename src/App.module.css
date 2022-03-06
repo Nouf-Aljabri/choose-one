@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ 
+  
+}
+
+body {
+    background-color: #eee;
+    height: 100vh;
+    background: linear-gradient(to top, #fff 10%, rgba(93, 42, 141, 0.4) 90%) no-repeat
+}
+
+.wrapper {
+    max-width: 500px;
+    height:300px;
+   
+    margin: 50px auto;
+    padding: 30px 40px;
+    box-shadow: 20px 20px 80px rgb(206, 206, 206)
+}
+
+.title {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #400485;
+    font-style: italic
+}
+
+.navTitle {
+    font-family: 'Kaushan Script', cursive;
+    font-weight: bold;
+    color: #400485 !important;
+    word-spacing: -5px;
+    
+    
+}
+
+.profile{
+    width: 39px;
+    height: 39px;
+}
+.userPic{
+    width: 130px;
+    height: 130px; 
+}
+
+#navDropdown{
+    color: black;
+}
+#loginBtn{
+    text-decoration: none;
+}
+ .questionCard{
+     flex-direction: row !important;
+        max-width: 550px;
+        border-radius: 10px;
+        margin: 10px auto;
+        padding: 30px 10px;
+        box-shadow: 20px 20px 80px rgb(206, 206, 206)
+
+ }
+
+
+.addQuestionCard{
+    flex-direction: row !important;
+       max-width: 700px;
+       border-radius: 10px;
+       margin: 10px auto;
+       padding: 40px 20px;
+       box-shadow: 20px 20px 80px rgb(206, 206, 206)
+
+}
+ .navLink{
+     color:#495057;
+ }
+ 
+ #opthinBtn{
+     width: 20rem !important;
+ }
+
+ .reportText{
+font-size: large;
+margin-left: 5rem;
+margin-bottom: 2rem;
+ 
+ }
+
+ .secondNav{
+     border-bottom: none !important;
+     justify-content: center;
+
+ }
+
+ .secondNavItem{
+    margin-right:15px;
+    background:transparent;
+    border:none;
+    outline:none;
+    padding:10px 20px ;
+    color:rgba(0,0,0,.4);
+    font-weight: bold;
+    transition:all ease-in-out .2s;
+    
+ }
+
+ .secondNavItem:hover{
+     color: #400485; 
+    
+ }
+
+ .boardData{
+     font-size: 23px;
+ }
+
+ .boardPic{
+    width: 90px;
+    height: 90px; 
+}
+
+.boardHead{
+text-align:justify !important;
+Padding-left: 3rem !important;
+
+}
+
+#boardHead{
+    font-size: 25px;
+    color:silver
+}
+
+#score{
+    background: rgba(236, 214, 8, 0.897);
+    border-radius: 0.5rem;
+    height: 2.5rem;
+    width:  3rem;
+    color: white;
+
+    font-weight: bold;
+   
+}
+
+#boardTable{
+vertical-align: middle !important;
+
+
+
+    
+}
+   
+ 
+
+   
